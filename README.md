@@ -8,3 +8,5 @@ The implemented algorithm uses add-one smoothing. The algorithm is also improved
 2) Feature Selection - select various top % of features (words) from the dictionary in training dataset seperatley for spam and ham. 
 
 In the end accuracy for test data is shown for general naive bayes implementation, naive bayes after removing stop words and naive bayes for feature selection (10%, 20%,..., 100%). The results are comapred and visulaized through graaphs for checking how accuracy improves.
+
+** Please remember to change the file location in the program to load the corpus for spam and ham in `test_spam`, `test_ham`, `train_spam`, `train_ham`.
